@@ -14,3 +14,16 @@ iframe{
 	height: 100%;
 	border: none;
 }
+.main-content{
+	position: relative;
+}
+.avatar img{
+	width: 100%;
+    height: auto;
+}
+.avatar{
+	position: absolute;
+    width: 130px;
+    right: 0;
+    top: 83px;
+}
