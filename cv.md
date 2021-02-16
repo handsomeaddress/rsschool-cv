@@ -1,5 +1,7 @@
 # Aleksei Kazakov
 
+![avatar](https://avatars.githubusercontent.com/u/45421719?s=400&u=df7d42e23c4fbc1fe92a661a69f8ad4632a4babd&v=4)
+
 #### Favorite quote:
 
 >Reindeer will not dance tango (c) [Maksim Luzhinskiy](https://github.com/MaksimLuzhinskiy)
