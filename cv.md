@@ -31,12 +31,12 @@ There is experience in commercial development and layout of small projects.
 
 
 Programming languages | Self-rating
------ | ------
-HTML\CSS | 7 \| 10
-Java Script | 5 \| 10
-Jquery | 8 \| 10
-БЭМ | 8 \| 10
-PHP | 2 \| 10
+-----                 | ------
+HTML\CSS              | 7 \| 10
+Java Script           | 5 \| 10
+Jquery                | 8 \| 10
+БЭМ                   | 8 \| 10
+PHP                   | 2 \| 10
 
 ### Favorite command
 
