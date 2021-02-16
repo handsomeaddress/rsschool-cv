@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
 }
 .container{
 	width: 1024px;
@@ -25,5 +26,17 @@ iframe{
 	position: absolute;
     width: 130px;
     right: 0;
-    top: 83px;
+    top: 65px;
+}
+.avatar--desc{
+	opacity: 0;
+	font-weight: 600;
+    color: #47b2c3;
+	-webkit-transition: all 0.5s 0s ease;
+	-moz-transition: all 0.5s 0s ease;
+	-o-transition: all 0.5s 0s ease;
+	transition: all 0.5s 0s ease;
+}
+.avatar:hover .avatar--desc{
+	opacity: 1;
 }
