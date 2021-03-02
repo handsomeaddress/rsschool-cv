@@ -11,24 +11,22 @@
 	<title>HTML & CSS | HANDSOMEADDRESS</title>
 </head>
 <body>
-	<header class="box">
-		<div class="container">
+	<div class="box box-bg">
+		<header id="name" class="container">
 			<h1 class="h1-title">Aleksei Kazakov 10.08.1997</h1>
 			<div class="photo-profile" title="It's me">
 				<img src="src/img/Ukk8j3_J7sE.jpg" alt="Avatar">
 			</div>
-		</div>
-	</header>
-	<main class="box">
-		<div class="container">
+		</header>
+		<main class="container">
 			<h2 class="quote-title">Favorite quote:</h2>
 			<blockquote>Reindeer will not dance tango (c) <a href="https://github.com/MaksimLuzhinskiy" target="_blank">Maksim Luzhinskiy</a></blockquote>
-			<h3>Contact me</h3>
+			<h3 id="contact">Contact me</h3>
 			<ul>
 				<li>Email: <a href="mailto:yeiehahaha@gmail.com"  target="_blank">yeiehahaha@gmail.com</a></li>
 				<li>Phone: <a href="tel:+375259246089"  target="_blank">+375259246089</a></li>
 			</ul>
-			<h3>About</h3>
+			<h3 id="about">About</h3>
 			<p>The samurai has no goal, only a path.</p>
 			<p>There is experience in commercial development and layout of small projects.</p>
 			<ul>
@@ -37,9 +35,9 @@
 				<li>Jquery</li>
 				<li>PHP</li>
 			</ul>
-			<h3>Favorite command</h3>
+			<h3 id="command">Favorite command</h3>
 			<code>console.log('Hellow world!');</code>
-			<h3>Experience</h3>
+			<h3 id="experience">Experience</h3>
 			<div class="experience-block">
 				<div class="experience-block--element">
 					<a href="https://dimmax.pro/" title="Dimmax" target="_blank">
@@ -60,15 +58,26 @@
 					</a>
 				</div>
 			</div>
-			<h3>Education</h3>
+			<h3 id="education">Education</h3>
 			<p>Secondary vocational on <a href="http://mtec.by/" target="_blank">Link</a></p>
 			<h3>English level</h3>
 			<p>My RUnglish is very bad, almost everything in this file was translated by google translator.</p>
-		</div>
-	</main>
-	<aside>
-		<nav></nav>
-	</aside>
+		</main>
+		<aside>
+			<nav>
+				<h4>Fast Link</h4>
+				<ul class="list list-menu">
+					<li><a href="#name">Name + Photo</a></li>
+					<li><a href="#contact">Contact me</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#command">Favorite command</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#education">Education & EN lvl</a></li>
+				</ul>
+			</nav>
+			<a href="#top"></a>
+		</aside>
+	</div>
 	<footer class="box">
 		<div class="logo-rs-block">
 			For 
