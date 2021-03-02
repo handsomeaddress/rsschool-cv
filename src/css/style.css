@@ -108,3 +108,7 @@ aside h4{
 main > *:last-child{
 	margin-bottom: 0;
 }
+.box-bg{
+	background-image: url(../../src/img/depositphotos_53979855-stock-photo-black-and-white-pattern.jpg);
+    background-size: 100px;
+}
